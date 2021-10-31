@@ -1,10 +1,10 @@
 <?php
 
-session_start();
+// session_start();
 
-if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
-  header("location: login.php");
-}
+// if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
+  header("location: contact.php");
+// }
 
 
 ?>
@@ -75,7 +75,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
   </nav>
 
   <div class="container mt-4">
-    <h3><?php echo "Welcome " . $_SESSION['username'] ?>! You can now use this website</h3>
+    <h3><?php echo "Welcome " . $_SESSION['username'] ?>! Your message sent</h3>
     <hr>
 
   </div>

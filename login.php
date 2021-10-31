@@ -89,9 +89,9 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
           <!-- <li class="nav-item">
                         <a class="nav-link" href="/about.html">About</a>
                     </li> -->
-          <li class="nav-item">
-            <a class="nav-link" href="/AMarketIndia/contact.html">Contact Us</a>
-          </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/AMarketIndia/contact.php">Contact Us</a>
+                    </li>
           <li class="nav-item">
             <a class="nav-link" href="/AMarketIndia/register.php">Register</a>
           </li>
